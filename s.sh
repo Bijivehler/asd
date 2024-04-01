@@ -6,19 +6,19 @@ execute_task() {
     local current_minute=$(TZ='Asia/Jakarta' date +'%M')
 
     case "$current_hour:$current_minute" in
-        "00:15")
+        "23:47")
             # Task pada jam 00:15
             gh workflow run A1
             ;;
-        "00:50")
+        "00:32")
             # Task pada jam 00:50
             gh workflow run A2
             ;;
-        "01:30")
+        "01:32")
             # Task pada jam 01:30
             gh workflow run A3
             ;;
-        "02:30")
+        "02:28")
             # Task pada jam 02:30
             gh workflow run A4
             ;;
@@ -26,49 +26,49 @@ execute_task() {
             # Task pada jam 03:30
             gh workflow run A5
             ;;
-        "04:30")
+        "09:33")
             # Task pada jam 04:30
             gh workflow run A6
             ;;
-        "10:30")
+        "10:40")
             # Task pada jam 10:30
             gh workflow run A7
             ;;
-        "11:06")
+        "13:05")
             # Task pada jam 11:06
             gh workflow run A8
             ;;
-        "12:30")
+        "14:15")
             # Task pada jam 12:30
             gh workflow run A9
             ;;
-        "13:20")
+        "16:10")
             # Task pada jam 13:20
             gh workflow run A10
             ;;
-        "14:10")
+        "17:45")
             # Task pada jam 14:10
             gh workflow run A11
             ;;
-        "16:30")
+        "19:30")
             # Task pada jam 16:30
             gh workflow run A12
             ;;
-        "17:50")
+        "20:54")
             # Task pada jam 17:50
             gh workflow run A13
             ;;
-        "19:30")
+        "22:10")
             # Task pada jam 19:30
             gh workflow run A14
             ;;
-        "20:53")
+        "23:10")
             # Task pada jam 20:53
             gh workflow run A15
             ;;
-        "22:20")
+        "23:20")
             # Task pada jam 22:20
-            gh workflow run A16
+            ls
             ;;
     esac
 }
